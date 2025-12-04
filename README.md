@@ -130,6 +130,7 @@ CSV dosyası şu sütunları içermelidir:
 - `type`: İşlem türü (`credit` veya `debit`)
 
 Örnek:
+Dosyalarda örnek csv eklenmiştir.
 ```csv
 date,amount,currency,description,type
 2025-07-01,4500.00,TRY,"Satış: Fatura #1023",credit
