@@ -1,17 +1,20 @@
 # Bank Statement Manager
+Banka Ekstre Yükleme, Yönetimi ve KPI Tabanlı Finansal Raporlama Platformu
+Bank Statement Manager; kurumsal firmaların banka ekstrelerini güvenli bir şekilde yükleyebildiği, sınıflandırabildiği ve finansal performans göstergelerini (KPI) gerçek zamanlı olarak takip edebildiği modern bir ekstre yönetim ve analitik çözümüdür.
 
-Modern bir banka ekstresi yönetim sistemi. Django REST Framework backend ve Next.js frontend ile geliştirilmiştir.
+Sistem; Django REST Framework tabanlı ölçeklenebilir bir backend mimarisi ile Next.js üzerinde inşa edilen dinamik ve yüksek performanslı bir frontend arayüzünü bir araya getirir.
+Bu yapı sayesinde kullanıcılar, çoklu banka hesaplarını tek noktadan yönetebilir, ekstre verilerini otomatik olarak yorumlayabilir ve gelir-gider akışlarını KPI dashboard’ları üzerinden analiz ederek karar alma süreçlerini hızlandırabilir.
 
 ## Özellikler
 
-- 📊 **CSV İçe Aktarma**: Banka ekstrelerini CSV formatında yükleyin
-- 🔄 **Otomatik Kategorileme**: İşlemler otomatik olarak kategorilere ayrılır
-- 💱 **Para Birimi Dönüştürme**: Çoklu para birimi desteği ve dönüştürme
-- 📈 **Finansal Raporlar**: Detaylı finansal analiz ve raporlar
-- 📧 **Haftalık Raporlar**: Celery ile otomatik haftalık e-posta raporları
-- 🔐 **JWT Kimlik Doğrulama**: Güvenli kullanıcı kimlik doğrulama
-- 🌐 **Modern UI**: Tailwind CSS ile modern ve responsive arayüz
-- 🇹🇷 **Türkçe Arayüz**: Tam Türkçe kullanıcı arayüzü
+- **CSV İçe Aktarma**: Banka ekstrelerini CSV formatında yükleyin
+- **Otomatik Kategorileme**: İşlemler otomatik olarak kategorilere ayrılır
+- **Para Birimi Dönüştürme**: Çoklu para birimi desteği ve dönüştürme
+- **Finansal Raporlar**: Detaylı finansal analiz ve raporlar
+- **Haftalık Raporlar**: Celery ile otomatik haftalık e-posta raporları
+- **JWT Kimlik Doğrulama**: Güvenli kullanıcı kimlik doğrulama
+- **Modern UI**: Tailwind CSS ile modern ve responsive arayüz
+- **Türkçe Arayüz**: Tam Türkçe kullanıcı arayüzü
 
 ## Teknolojiler
 
@@ -58,7 +61,7 @@ pip install -r requirements.txt
 
 4. Environment dosyasını oluşturun:
 ```bash
-cp .env.example .env
+.env
 ```
 
 5. `.env` dosyasını düzenleyin ve veritabanı bilgilerinizi girin.
@@ -139,7 +142,7 @@ Testleri çalıştırmak için:
 ```bash
 pytest
 ```
+<img width="1832" height="2644" alt="image" src="https://github.com/user-attachments/assets/5561f1c5-a11d-4e8e-ba20-37820b259a69" />
 
-## Lisans
 
-Bu proje MIT lisansı altında lisanslanmıştır.
+
