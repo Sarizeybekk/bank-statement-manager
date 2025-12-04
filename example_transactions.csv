@@ -1,0 +1,14 @@
+date,amount,currency,description,type
+2025-07-01,4500.00,TRY,"Satış: Fatura #1023",credit
+2025-07-02,-1200.00,TRY,"Kira Ödemesi",debit
+2025-07-03,-300.00,TRY,"SaaS: CRM Aylık",debit
+2025-07-04,2500.00,TRY,"Satış: Fatura #1024",credit
+2025-07-05,-150.00,TRY,"Ofis Kırtasiye",debit
+2025-07-06,-5000.00,TRY,"Personel Maaşı Ödemesi",debit
+2025-07-07,3200.00,TRY,"Satış: Fatura #1025",credit
+2025-07-08,-600.00,TRY,"Elektrik Faturası",debit
+2025-07-09,-800.00,TRY,"İnternet Gideri",debit
+2025-07-10,7000.00,TRY,"Satış: Fatura #1026",credit
+
+
+
